@@ -1,0 +1,171 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: inline-block;
+	font-size: 0;
+}
+
+.content-pane {
+	margin: 0;
+	border: 0;
+	width: calc(100%/3);
+	height: 100%;
+	display: inline-table;
+	text-align: center;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 5000000;
+}
+
+#stereotypes {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+				url('http://www.socialtalent.co/wp-content/uploads/2015/04/Dennis-Jurassic-Park.jpg') center;
+	background-size: auto 100%;
+}
+
+#stereotypes:hover, #stereotypes:focus {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+				url('http://www.socialtalent.co/wp-content/uploads/2015/04/Dennis-Jurassic-Park.jpg') center;
+	background-size: auto 100%;
+}
+
+#community {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+				url('http://www.houstonmakerfaire.com/wp-content/uploads/sites/3/2016/10/hacking-edu.jpg') center center;
+	background-size: auto 100%;
+}
+
+#community:hover, #community:focus {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+				url('http://www.houstonmakerfaire.com/wp-content/uploads/sites/3/2016/10/hacking-edu.jpg') center center;
+	background-size: auto 100%;
+}
+
+#legends {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+				url('http://zdnet1.cbsistatic.com/hub/i/r/2016/01/26/959ae809-cc17-4270-8b23-307e540c889c/resize/1170x878/b951495f1472aa3666dd3f849e8e9b9c/corbis-dwf15-789440.jpg') 70% 100%;
+	background-size: auto 100%;
+}
+
+#legends:hover, #legends:focus {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+				url('http://zdnet1.cbsistatic.com/hub/i/r/2016/01/26/959ae809-cc17-4270-8b23-307e540c889c/resize/1170x878/b951495f1472aa3666dd3f849e8e9b9c/corbis-dwf15-789440.jpg') 70% 100%;
+	background-size: auto 100%;
+}
+
+@-webkit-keyframes brightness {
+  0% { -webkit-filter: brightness(100%); } 
+  20% { -webkit-filter: brightness(105%); }
+  40% { -webkit-filter: brightness(110%); }
+  60% { -webkit-filter: brightness(115%); }
+  80% { -webkit-filter: brightness(120%); }
+  100%  { -webkit-filter: brightness(125%); }
+}
+
+.title {
+	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+	color: white;
+	font-size: 5vh;
+	display: table-cell;
+	vertical-align: middle;
+	box-shadow: 0 -10px 0 -10px black;
+}
+
+#exit-button {
+	color: white;
+	height: 2.5vh;
+	width: 2.5vh;
+	position: fixed;
+	left: 1.5vw;
+	top: 1.75vh;
+	z-index: 100000000;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#archive {
+	position: absolute;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: 10000000;
+	font-size: 3vh;
+}
+
+#archive ul li a {
+	text-decoration: none;
+}
+
+#archive-header {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	margin-top: -35vh;
+}
+
+#archive-button {
+	font-family: "Karla", Helvetica, Arial, sans-serif;
+	background-color: transparent;
+	height: 4vh;
+	width: 8vw;
+	font-size: 3vh;
+	border: 0.5px solid white;
+	color: white;
+	position: fixed;
+	bottom: 1.5vh;
+	right: 1.5vh;
+	z-index: 10000000;
+}
+
+#archive-button:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.focused {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.invisible {
+	opacity: 0;
+}
+
+.hidden {
+	display: none !important;
+	opacity: 0;
+}
+
+.article-text {
+	display: inline-block;
+	position: absolute;
+	width: 66.6%;
+	left: 33.3%;
+	top: 0;
+	height: 100vh;
+	z-index: 10000;
+	font-size: 2.75vh;
+	text-align: center;
+}
+
+.article-text p, #archive ul {
+	width: 90%;
+	text-align: justify;
+	margin-top: 2.5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.article-text h2, #archive h2 {
+	margin-left: 5%;
+	text-align: left !important;
+	font-family: 'Karla', Helvetica, Arial, sans-serif;
+}
+
