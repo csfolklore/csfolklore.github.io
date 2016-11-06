@@ -1,7 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
 <body>
-  <h1>Hello, the page is working.</h1>
+	<div class="content-pane" id="stereotypes">
+		<span class="title">STEREOTYPES</span>
+	</div>
+	<div class="content-pane" id="community">
+		<span class="title">COMMUNITY</span>
+	</div>
+	<div class="content-pane" id="legends">
+		<span class="title">LEGENDS</span>
+	</div>
+	<i id="exit-button" class="fa fa-angle-left hidden" style="font-weight: 100 !important;"></i>
+	<button id="archive-button" type="button" value="ARCHIVE">ARCHIVE</button>
+	<div id="stereotypes-text" class="article-text hidden">
+		<h2>Stereotypes in Computer Science</h2>
+		<p>Many pieces of programmer folklore rely on the common stereotype that computer programmers tend to lack social awareness. Take, for example, the following joke: <br><br>
+		A programmer is going to the store and his wife tells him to buy a gallon of milk, and if there are eggs, buy a dozen. So the programmer goes shopping, does as she says, and returns home to show his wife what he bought. But she gets angry and asks, ‘Why’d you buy 13 gallons of milk?’ The programmer replies, ‘There were eggs!’ <br><br>
+		The humor in this joke comes from the understanding that programmers, like the programs they code, are very literal. Since the wife fails to specify what he should buy a dozen of, the stereotypically logical programmer buys a dozen of the last thing she mentions, even though buying thirteen gallons of milk is ridiculous. 
+		The programmers we interviewed were very aware of this stereotype; one interviewee noted that “when people think of programmers, they tend to think of very antisocial people who stay indoors all day and don’t really interact with others.” <br><br>
+		However, one interviewee stated that this perception was starting to change. “Now that programmers and tech culture is getting younger,” he said, “the stereotype of an old, nerdy, antisocial guy coding in his parent’s basement is kind of disappearing- it’s a lot more glamorous of a lifestyle than that, and I think people are starting to realize that things are changing.” This is evident in the etiological urban legend he shared, which explains that Microsoft interns are no longer allowed at Bill Gates’ mansion after drinking too much and defacing the house. 
+		</p>
+	</div>
+	<div id="community-text" class="article-text hidden">
+		<h2>Programmers as a Whole - Community Building</h2>
+		<p>
+			Computer Science programmers have many traits that define their specific group. They are stereotyped as introverted, perhaps leading to the rise in their distance from many other groups.. This general introversion and quote on quote nerdiness could be depicted in a game computer science students, and sometimes professors, play: finding your Edos Number. The whole point of the game is to ultimately determine how close one is to a famous mathematician who published 1500+ papers through different connections. Of the students who published, the one with the least amount of connections needed to get to the Paul Edos has the lowest Erdos number and is consequently more intellectual. This one game depicts computer science programmers as a whole since it shows how computer science students tend to stay within their own community (as shown by them finding their number through computer science publications) which could contribute to an outsiders’ perspective of them being somewhat secluded and closed from other groups. An idea leading to this could also be the programmers themselves distancing themselves from others by knowing and keeping in mind that their Erdos Numbers are higher than other non computer science students or professors.
+			This divide could clearly be represented in the Binary Joke below where a computer science programmer mentions how there are ten types of people, those who understand Binary, and those who don’t. The word play comes in since Binary involves the numbers 1 and 0. This shows the further divide computer science programmers place between themselves and other groups since in this joke, they are showing how they understand binary while other non computer science programmers do not.
+			Finally, a quote by Emily Whiting, a professor here at Dartmouth College was, “Engineers rule the world”. Whiting mentioned how computer science students often say this quote often which again adds to the point of how they overall as a group view themselves differently, and in this quote, better or more intellectual than other educational groups.
+		</p>
+		<br>
+		<h2>Specific subgroups within the CS community</h2>
+		<p>
+			There are a surprising amount of areas where programmers disagree over things that seem trivial to outsiders. Although people may have differing views on the topics, the arguments themselves are familiar to most coders. These disagreements can cause factions to form within groups of programmers, where common values and ideas unite people. For example, one of our interviewees mentioned that programmers can often get into arguments about the virtues of tabs versus spaces in their code. When writing code, indentation plays a big role in denoting different sections of the code, much like how indentation marks separate paragraphs when writing an essay. Our interviewee explained that tabs are often interpreted differently by different programs - sometimes a tab is turned into 2 spaces, sometimes it’s 4 spaces, or sometimes even 6. By manually typing in each space instead of using a tab, a programmer retains more control over how their code will appear in programs outside of the one they are currently using. On the flip side, it is clearly faster to type a single tab than to type four spaces whenever you are indenting. 
+			Another area that divides programmers is their language preferences. These can be determined by the language that a programmer uses most often in their work, but there are nuances and differences between languages that also cause stereotypes to form around them. We had several interviewees tell us jokes they knew that made fun of the problems with certain languages. For example, one interviewee told a knock knock joke where he paused a long time after I said “Who’s there” before replying with “Java”. This references the slow compile time of Java, but ignores many of the benefits that come with the language.
+		</p>
+		<br><br>
+	</div>
+	<div id="legends-text" class="article-text hidden">
+		<h2>Legends, myths and origins of programming practices</h2>
+		<p>
+			Within the vast field of computer science, there exists a multitude of legends and myths that help describe and explain the origins of certain computer programming practices. Since so many innovative ideas and groundbreaking technological advances have arisen due to the creative genius of computer programmers across the globe, a series of various rituals and practices executed by a copious amount of programmers has also emerged. <br><br>Programmers have become accustomed to accomplishing tasks in a similar manner, further substantiating the claim that computer programmers comprise a folklore group. These customs and practices stemmed from previous myths and legends that have become widely accepted by the programming community. For example, there is a Tower of Hanoi myth in which Buddhist monks were keepers of 3 towers, and had to sort out 64 rings, in order of increasing size from the bottom to the top, from the first tower to the third; once they accomplished this feat, the world would come to an end. This eschatological myth provides an origin for the Tower of Hanoi puzzle, which can now be solved extremely quickly with computer programs, thereby demonstrating the usefulness of computers and codes. <br><br>Another example is the Ballmer Peak legend, which is a supposed legend that there exists a certain blood alcohol concentration in which computer programmers perform at their peak efficiency. This legend originated from Microsoft, and helps explain why many computer programmers consume some alcohol in order to enhance their creativity levels for programming. 
+		</p>
+	</div>
+	<div id="archive" class="hidden">
+		<img id="archive-header" src="http://www.computacionsinbarreras.com/imagenes/slide1.jpg"></img>
+		<h2>Recorded Interviews and Transcripts</h2>
+		<ul>
+		  <li>
+		  	<a href="https://drive.google.com/open?id=0B6MJvNcQMtvhekc2YzBEaHI4UTA" target="_blank">Professor Emily Whiting</a>
+		  </li>
+		  <li> 
+		  	<a href="https://drive.google.com/open?id=0B6MJvNcQMtvhTGFIS1E0VFF2cjg" target="_blank">Afnan Enayet ‘19 CS Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://drive.google.com/open?id=0B6MJvNcQMtvhTlhKRkxiSnh2cGs" target="_blank">Nan Hu ‘18 CS Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://drive.google.com/open?id=0B61lcA9e6pmkN3pkSVFLZ1RXNnUtdDRYQ0RnTzNtcDVvdzlZ" target="_blank">Arun Hari '19 CS Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://www.dropbox.com/s/cx1zqug6ts7d2cs/Weiliang%20Huang.m4a?dl=0" target="_blank">Weiling Huang '19 CS Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://www.dropbox.com/s/zv8wb6af87i3g17/Kevin%20Li.m4a?dl=0" target="_blank">Kevin Li '17 CS Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://www.dropbox.com/s/g2cjgzb8qwzixa9/Yohann%20Curmally.m4a?dl=0" target="_blank">Yohann Curmally '18 CS Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://drive.google.com/open?id=0B5-kQ0jPjeUgYmJHb1c5bUhTZWdvWDRrZlhIbi1kRm9fUlhN" target="_blank">George Hito '18 CS/ENGS Double Major</a>
+		  </li>
+		  <li>
+		  	<a href="https://drive.google.com/open?id=0B5-kQ0jPjeUgem1PZ2pNU19Ucl9lY0dxNGIyUG00MkJ3bmY4" target="_blank">Wes Kendrick '19 CS Major</a>
+		  </li>
+		</ul>
+	</div>
 </body>
+
+<script type="text/javascript">
+	window.onload = function() {
+		$('.article-text').addClass('hidden');
+	};
+	$('.content-pane').click(function() {
+		$('.content-pane').not(this).addClass("invisible");
+		$(this).addClass("focused");
+		$("#" + this.id + "-text").removeClass("hidden");
+		$('#exit-button').removeClass("hidden");
+		$('.article-text').not("#" + this.id + "-text").addClass("hidden");
+	});
+	$('#exit-button').click(function() {
+		$('.content-pane').removeClass("focused invisible");
+		$('.article-text').addClass("hidden");
+		$('#archive').addClass("hidden");
+		$('#exit-button').addClass("hidden");
+	});
+	$('#archive-button').click(function() {
+		$('#exit-button').removeClass("hidden");
+		$('.content-pane').addClass("invisible");
+		$('#archive').removeClass("hidden");
+	});
+
+</script>
+
 </html>
